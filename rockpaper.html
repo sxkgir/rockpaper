@@ -8,24 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="game-title">
-        <div class="text">ROCK PAPER</div>
-        <div class="text">SCISSORS</div>
+    <header class="header">
+        <h1 class="text">ROCK PAPER</h1>
+        <h1 class="text">SCISSORS</div>
 
-    </div>
+    </header>
 
     <div class="game-display">
-        <div class="human">You
-            <img alt="Rock Paper Scissor">
-        </div>
-        <div class="computer">Computer
-            <img alt="Rock Paper Scissor">
+        <div class="human-container">
+            <div class="text">You</div>
+            <img src="questionMark.jpg" alt="Rock Paper Scissor">
         </div>
         <div id="humanScore">0</div>
         <div class="text">vs</div>
         <div id="computerScore">0</div>
+
+
+        <div class="computer-container">
+            <div class="text">Computer</div>
+            <img src="questionMark.jpg" alt="Rock Paper Scissor">
+
+        </div>
     </div>
-    <button>Start Game</button>
+
+    <div class="btn-container">
+        <button id="btnStart">Start Game</button>
+    </div>
 
 
 

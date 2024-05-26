@@ -1,0 +1,94 @@
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@font-face {
+    font-family: "Silkscreen";
+    src: url(slkscr.ttf);
+}
+
+body{
+    background-color: grey;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(66, 65, 65);
+    padding: 60px;
+}
+
+.header .text{
+    margin: 0;
+    font-size: 50px;
+    font-family: "Silkscreen";
+    color: orange;
+}
+
+.game-display{
+    padding: 100px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.human-container,.computer-container{
+    max-width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.human-container,.computer-container .text{
+    font-size: 50px;
+    font-family: "Silkscreen";
+    color: orange;
+    text-align: center;
+    
+
+}
+
+.computer-container .text{
+    color: red;
+}
+
+.game-display .text{
+    font-size: 50px;
+}
+
+#humanScore,#computerScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    font-size: 50px;
+    font-family: "Silkscreen";
+    height: 70px;
+    width: 80px;
+}
+
+.btn-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#btnStart{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-size: 35px;
+    font-family: "Silkscreen";
+    background-color: rgb(254, 72, 72);
+    color: rgb(132, 79, 79);
+}
+
